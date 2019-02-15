@@ -4,7 +4,6 @@ h1{
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   text-transform: uppercase;
-  border-bottom: 1px solid #f1f1f1;
   letter-spacing: 2rem;
   /* rem and em are proportional fonts */
 }
@@ -20,4 +19,11 @@ img {
 }
 img:hover {
   opacity: 1;
+}
+
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
