@@ -31,3 +31,7 @@ hr {
 .nav-bar{
   text-align: center;
 }
+.btn-default:hover{
+  color:red;
+  opacity: .8;
+}
